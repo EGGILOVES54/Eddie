@@ -7,6 +7,9 @@ html {
     scroll-behavior: smooth;
 }
 
+
+
+
 .top-menu {
     position: fixed;
     top: 15px;
@@ -24,15 +27,21 @@ html {
     background: #6a2c91;
     color: white;
     text-decoration: none;
+
     padding: 10px 20px;
     border-radius: 10px;
 }
+
+
+
 
 section {
     min-height: 100vh;
     padding: 120px 30px;
     box-sizing: border-box;
 }
+
+
 
 #photos {
     text-align: center;
@@ -42,8 +51,10 @@ section {
     display: flex;
     justify-content: center;
     align-items: flex-start;
+
     gap: 30px;
     flex-wrap: wrap;
+
     margin-top: 40px;
 }
 
@@ -55,18 +66,39 @@ section {
 .photo-card img {
     width: 200px;
     height: 200px;
+
     object-fit: cover;
     border-radius: 15px;
 }
 
 .photo-card p {
     margin-top: 10px;
+
     color: black;
     font-size: 18px;
     font-weight: bold;
 }
 
 
+
+
+.back-to-top {
+    position: fixed;
+
+    bottom: 20px;
+    right: 20px;
+
+    background: #6a2c91;
+    color: white;
+
+    border: none;
+    border-radius: 10px;
+
+    padding: 10px 15px;
+
+    font-size: 16px;
+    cursor: pointer;
+}
 
 
 
